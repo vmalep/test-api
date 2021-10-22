@@ -20,7 +20,7 @@ function QuizzList() {
         <div>
             <h2>Quizz List</h2>
             <div className="quizz-cards">
-                <QuizzCard />
+                <QuizzCard quizzList={quizzList} />
             </div>
         </div>
     )
